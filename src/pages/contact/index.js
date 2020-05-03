@@ -1,11 +1,12 @@
 import React from 'react'
-import './styles/contact.css'
+import StylesDiv from './styles'
 import { MdEmail } from 'react-icons/md'
 import { FaGithub, FaSkype } from 'react-icons/fa'
 class Contact extends React.Component{
     render(){
         return (
-                <div id="contact">
+            <StylesDiv>
+               
                     <div className="contact_card">
                         <div id="form_container">
                             <h2>Contact Me</h2>
@@ -15,10 +16,9 @@ class Contact extends React.Component{
                                 <li className="contact_via email"><a href="mailto:joaquin_giordano@outlook.com" ><MdEmail className="via_icon"/>Email</a></li>
                             </ul>
                         </div>
-                       
-                    </div>
+                    
                 </div>   
-             
+            </StylesDiv>
         )
     }
 }

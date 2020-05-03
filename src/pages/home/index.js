@@ -1,10 +1,10 @@
 import React from 'react'
+import StylesDiv from './styles'
 
-import './styles/home.css'
 class Home extends React.Component{
     render(){
         return (
-            <div id="home">
+            <StylesDiv>
                     <div className="card">
                         <div>
                             <div id="img_container">
@@ -21,7 +21,7 @@ class Home extends React.Component{
                         
                     </div>
                     
-            </div>
+            </StylesDiv>
            
         )
     }

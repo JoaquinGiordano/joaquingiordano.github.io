@@ -1,3 +1,16 @@
+import React from 'react'
+import styled from 'styled-components'
+
+export default styled.div`
+
+display: flex;
+align-items: center;
+justify-content: center;
+position:relative; 
+width: 100%;
+animation: fadein 1s;
+text-align: center;
+height: calc(100% - 64px);
 
 @keyframes fadein {
     0% {
@@ -36,18 +49,6 @@
         
     }
 }
-
-#contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position:relative; 
-    width: 100%;
-    animation: fadein 1s;
-    text-align: center;
-    height: calc(100% - 64px);
-}
-
 #form_container{
     display: flex;
     justify-content: center;
@@ -119,3 +120,5 @@
 h1{
     margin: 20px 0px;
 }
+
+`

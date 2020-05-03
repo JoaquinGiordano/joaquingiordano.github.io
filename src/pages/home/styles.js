@@ -1,4 +1,17 @@
+import React from 'react'
+import styled from 'styled-components'
 
+export default styled.div`
+
+display: flex;
+justify-content: center;
+align-items: center;
+position:relative; 
+width: 100vw;
+animation: fadein 1s;
+text-align: center;
+height: calc(100% - 64px);
+    
 
 @keyframes fadein {
     0% {
@@ -56,18 +69,6 @@
     }
 }
 
-#home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:relative; 
-    width: 100vw;
-    animation: fadein 1s;
-    text-align: center;
-    height: calc(100% - 64px);
-
-}
-
 #profile_img{
     width: 100%;
     height: 100%;
@@ -102,3 +103,6 @@ h1{
     color: #252525;
     margin: 10px 0px 10px 0px;
 }
+
+
+`
