@@ -1,12 +1,14 @@
+import React from 'react'
+import styled from 'styled-components'
 
-#projects{
-    position:relative; 
-    display: flex;
-    width: 100%;
-    animation: fadein 1s;
-    text-align: center;
-    flex-wrap: wrap;
-}
+export default styled.div`
+position:relative; 
+display: flex;
+width: 100%;
+animation: fadein 1s;
+text-align: center;
+flex-wrap: wrap;
+
 
 .hidden{
     opacity: 0;
@@ -175,3 +177,7 @@
         height: 200px;
     }
 }
+
+
+
+`

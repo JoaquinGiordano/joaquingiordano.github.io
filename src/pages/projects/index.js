@@ -1,9 +1,10 @@
 import React from 'react'
-import { Context } from '../components/Navbar.context'
+import { Context } from '../../components/Navbar.context'
 import { FaGithub } from 'react-icons/fa'
 import { IoMdPlanet } from 'react-icons/io'
+import StylesDiv from './styles'
 import jsonProjects from './projects.json'
-import './styles/projects.css'
+
 class Projects extends React.Component{
 
     constructor(props){
@@ -15,7 +16,7 @@ class Projects extends React.Component{
 
     render(){
         return (
-            <div id="projects">
+            <StylesDiv>
                 {
                     jsonProjects.map((project, i) =>(
                             <div className={`project_card_container ${this.context.active && "hidden"}`}  key={i}>
@@ -37,7 +38,7 @@ class Projects extends React.Component{
                     )
                 }
             
-            </div>
+            </StylesDiv>
               
            
         )

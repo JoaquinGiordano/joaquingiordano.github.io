@@ -4,7 +4,7 @@ import {NavbarContextProvider}  from './components/Navbar.context'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import Home from './pages/home/'
 import Contact from './pages/contact/'
-import Projects from './pages/projects'
+import Projects from './pages/projects/'
 import './App.css';
 
 function App() {
