@@ -46,5 +46,13 @@
 		"hyperlink_repository": "https://github.com/JoaquinGiordano/blackjs",
 		"image": "https://joaquingiordano.github.io/blackjs/src/icon.png",
 		"programming_language": "JavaScript"
+	},
+	{
+		"name": "ISS Location",
+		"description": "A page which let you know where the ISS is",
+		"hyperlink_page": "https://joaquingiordano.github.io/iss-location",
+		"hyperlink_repository": "https://github.com/JoaquinGiordano/iss-location",
+		"image": "https://raw.githubusercontent.com/JoaquinGiordano/iss-location/master/icon-nr.png",
+		"programming_language": "JavaScript"
 	}
 ]
