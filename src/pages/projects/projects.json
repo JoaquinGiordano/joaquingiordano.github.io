@@ -54,5 +54,13 @@
 		"hyperlink_repository": "https://github.com/JoaquinGiordano/iss-location",
 		"image": "https://raw.githubusercontent.com/JoaquinGiordano/iss-location/master/icon-nr.png",
 		"programming_language": "JavaScript"
+	},
+	{
+		"name": "Belgrano Group App",
+		"description": "An app to make polls and get stadistics for Belgrano Group",
+		"hyperlink_page": null,
+		"hyperlink_repository": null,
+		"image": "https://i.imgur.com/Gx4YVEO.png",
+		"programming_language": "React, React Native, NodeJS, MySQL"
 	}
 ]
